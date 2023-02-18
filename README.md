@@ -23,6 +23,7 @@ Tweaks:
 
 TODO:
 - [ ] support inline autofill
+- [ ] support dictionary
 
 ## Credits
 
