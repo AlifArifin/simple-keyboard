@@ -1,6 +1,6 @@
 # Simple Keyboard
 
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/simple-keyboard/localized.svg)](https://crowdin.com/project/simple-keyboard)
+Forked project from [Simple Keyboard](https://github.com/rkkr/simple-keyboard) with tweaks from personal preference.
 
 <img src="images/screenshot-0.png"
       alt="closeup"
@@ -18,20 +18,11 @@ Features:
 - Minimal permissions (only Vibrate)
 - Ads-free
 
-Feature it doesn't have and probably will never have:
-- Emojis
-- GIFs
-- Spell checker
-- Swipe typing
+Tweaks:
+- Maintain row keys if number row = true
 
-## Downloads
-
-[<img src="https://f-droid.org/badge/get-it-on.png"
-      alt="Get it on F-Droid"
-      height="80">](https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/)
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
-      alt="Get it on Google Play"
-      height="80">](https://play.google.com/store/apps/details?id=rkr.simplekeyboard.inputmethod)
+TODO:
+- [ ] support inline autofill
 
 ## Credits
 
