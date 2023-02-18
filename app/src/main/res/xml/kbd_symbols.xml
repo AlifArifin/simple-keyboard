@@ -27,17 +27,22 @@
                 latin:keyboardLayout="@xml/rows_symbols" />
         </Keyboard>
     </case>
-    <case latin:showNumberRow="true">
+    <case latin:languageCode="hy|km|lo|th">
+        <!-- The armenian_phonetic, khmer, lao, and thai keyboards always have 5 rows. -->
         <Keyboard
             latin:bonusHeight="@fraction/config_key_bonus_height_5row">
             <include
                 latin:keyboardLayout="@xml/rows_symbols" />
         </Keyboard>
     </case>
-    <case latin:languageCode="hy|km|lo|th">
-        <!-- The armenian_phonetic, khmer, lao, and thai keyboards always have 5 rows. -->
+     <!-- Retain row keys -->
+    <case latin:showNumberRow="true">
         <Keyboard
-            latin:bonusHeight="@fraction/config_key_bonus_height_5row">
+            latin:verticalGap="@fraction/config_key_vertical_gap_5row"
+            latin:bonusHeight="@fraction/config_key_bonus_height_5row"
+            latin:rowHeight="20%p">
+            <include 
+                latin:keyboardLayout="@xml/row_qwerty0" />
             <include
                 latin:keyboardLayout="@xml/rows_symbols" />
         </Keyboard>

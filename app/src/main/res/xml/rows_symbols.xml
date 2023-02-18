@@ -36,6 +36,11 @@
                 <include
                     latin:keyboardLayout="@xml/rowkeys_bengali_numbers" />
             </case>
+            <!-- Use rowkeys shift if number row is true -->
+            <case latin:showNumberRow="true">
+                <include
+                    latin:keyboardLayout="@xml/rowkeys_symbols_shift1" />
+            </case>
             <default>
                 <include
                     latin:keyboardLayout="@xml/rowkeys_symbols1" />
